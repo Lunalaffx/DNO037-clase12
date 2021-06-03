@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+*{
+	transition:all ease 0.5s;
+	
+	color:darkgoldenrod;
+}
+
+:hover{
+	transition:all ease 0.5s;
+}
+
+a.nav-link {
+	text-transform: lowercase;
+	font-variant: small-caps;
+}
+
+section header{
+	height:auto;
+	min-height: 60vh;
+}
+
+section#hello header{
+	background:silver url('https://picsum.photos/id/1018/900/400') center center no-repeat;
+	background-size:cover;
+	
+}
+
+section#work header{
+	background:silver url('https://picsum.photos/id/141/900/400') center center no-repeat;
+	background-size:cover;	
+	
+}
+
+section#contact header{
+	background:silver url('https://picsum.photos/id/235/900/400') center center no-repeat;
+	background-size:cover;	
+	
+}
+
+:target:before {
+	content:"";
+	display:block;
+	height:70px;
+	margin:-70px 0 0;
+}
+main {
+	font-family: 'Chango', cursive;
+	color: rgb(219, 148, 160);
+	background-color: rgb(221, 145, 211);
+	background: linear-gradient(to right, #e1eec3, #f05053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.navbar-light .navbar-brand {
+	color:rgb(6, 1, 39);
+	font-family: 'Cute Font', cursive;
+}
+div.row.small.text-muted {
+	font-family: 'Cute Font', cursive;
+}
+.my-auto .text-center .display-1 {
+	color:rgb(6, 1, 39);
+}
